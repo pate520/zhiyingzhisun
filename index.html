@@ -183,6 +183,40 @@
                     <img src="仓位止盈止损.jpg" alt="仓位止盈止损" style="max-width: 45%; border: 1px solid #ddd; border-radius: 4px;">
                 </div>
             </div>
+
+            <div class="note">
+                <p><strong>补充说明：</strong></p>
+                <ul>
+                    <li><strong>显示逻辑：</strong>
+                        <ul>
+                            <li>当止盈止损<span class="highlight">没有设置值</span>时，显示 <code>--/--</code></li>
+                            <li>当止盈止损<span class="highlight">有值</span>时，显示一个<span class="highlight">小册子图标</span>（类似文档列表图标）</li>
+                        </ul>
+                    </li>
+                    <li><strong>交互方式：</strong>
+                        <ul>
+                            <li>点击小册子图标，打开止盈止损弹窗</li>
+                            <li>弹窗样式采用<span class="highlight">移动端下拉样式</span>
+                                <div style="margin-top: 10px;">
+                                    <img src="image.png" alt="移动端下拉样式示例" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+                                </div>
+                            </li>
+                            <li>点击<span class="highlight">取消</span>按钮需要<span class="highlight">二次确认弹窗</span>
+                                <div style="margin-top: 10px;">
+                                    <img src="59802612124b55d911a62bbc92e36f45.jpg" alt="二次确认弹窗示例" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>弹窗内容：</strong>
+                        <ul>
+                            <li>以简洁的表格形式展示所有止盈止损条目</li>
+                            <li>表格列：类型（止盈/止损）、触发价格、数量、操作（取消按钮）</li>
+                            <li>不显示"修改"按钮，只保留"取消"按钮用于删除条目</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
         
         <!-- 需求二 -->
